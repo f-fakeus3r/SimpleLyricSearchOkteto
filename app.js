@@ -36,7 +36,7 @@ app.use(express.static("public")); //Definindo a pasta public para elementos fro
 const cors = require("cors");
 app.use(cors());
 
-const port = 8080 || process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 app.listen(port),
   function () {
     console.log("Server started.......");
