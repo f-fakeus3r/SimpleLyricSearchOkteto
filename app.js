@@ -1,7 +1,7 @@
 //Configuração do MongoDB via Mongoose
 const mongoose = require("mongoose");
 const dbConnection = mongoose.connect(
-  "mongodb+srv://fake:db123_@mycluster.uw16e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "mongodb+srv://${process.env.DB_NAME}:${process.env.DB_PASS}@mycluster.uw16e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   { useNewURLParser: true, useUnifiedTopology: true },
   () => {
     console.log("connected to DB");
