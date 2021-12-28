@@ -1,22 +1,17 @@
-# sprint-2-pb-ufms
-
-Segundo sprint do programa de bolsas Compass.uol para formação em chatbot Rasa.
-
 # Simple Lyrics Search 2.0
 
 - Criador: Leonardo C. Biazom
-- Acesso: https://faker3po-f-fakeus3r.cloud.okteto.net/
+- Acesso: https://simple-lyrics-search-byfake.herokuapp.com/
 
 # Objetivo e Funcionalidade
 
 O objetivo do projeto é consumir uma API pública em NodeJS.
 A API escolhida foi a Lyrics.ovh. Sua funcionalidade é trazer a letra de uma música, a partir da entrada do nome do Artista e do nome da mesma.
-Nessa nova versão, a aplicação é hospedada no Okteto Cloud, facilitando a manutenção do código.
-Além disso, foi incluído uma conexão ao banco de dados MongoDB, e agora é possível ver as últimas buscas feitas, por meio do botão Recent Searches
+Foi incluída uma conexão ao banco de dados MongoDB, e agora é possível ver as últimas buscas feitas, por meio do botão Recent Searches
 
 # Uso do aplicativo
 
-O aplicativo possui a função de busca de letras, e consulta as últimas buscas feitas.
+O aplicativo possui a função de busca de letras e consulta às últimas buscas feitas.
 
 ## Busca
 
@@ -41,7 +36,6 @@ Foram utilizados:
 - HTML e CSS para o front-end;
 - Javascript para o servidor NodeJS, onde é feito o consumo da API;
 - MongoDB para inserção e consulta de dados;
-- Configuração de Kubernete no Okteto Cloud.
 
 ## Dependências do pacote:
 
