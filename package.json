@@ -4,7 +4,7 @@
   "main": "app.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn startheroku logs --tail"
+    "start": "yarn start"
   },
   "dependencies": {
     "axios": "^0.24.0",
